@@ -10,6 +10,7 @@
  */
 
 
+
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 	/**
@@ -63,3 +64,9 @@ add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+// Define custom function to include header.html
+function custom_get_header() {
+    // Include the header template file
+    include_once( get_template_directory() . '/parts/header.html' );
+}

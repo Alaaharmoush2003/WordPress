@@ -1,7 +1,73 @@
-<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"0px","bottom":"var(--wp--custom--spacing--large, 8rem)"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color" style="padding-top:0px;padding-bottom:var(--wp--custom--spacing--large, 8rem)"><!-- wp:template-part {"slug":"header","tagName":"header","align":"wide"} /-->
+<header class="custom-header">
+    <div class="container">
+        <div class="header-content">
+            <div class="site-logo">
+                <img src="path/to/your/logo.png" alt="Site Logo" width="64">
+            </div>
+            <h1 class="site-title">Your Site Name</h1>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="../home.php">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
 
-<!-- wp:pattern {"slug":"twentytwentytwo/hidden-heading-and-bird"} /--></div>
-<!-- /wp:group --><!-- wp:spacer {"height":66} -->
-<div style="height:66px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<style>
+    .custom-header {
+        background-color: #fff; /* Set your desired background color */
+        color: #000000; /* Set your desired text color */
+        padding-top: 1.25rem; /* Adjust padding as needed */
+        padding-bottom: 8rem; /* Adjust padding as needed */
+    }
+
+    .container {
+        max-width: 1200px; /* Adjust max-width as needed */
+        margin: 0 auto;
+        padding: 0 20px; /* Adjust padding as needed */
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .site-logo img {
+        width: 64px; /* Set your desired logo width */
+    }
+
+    .site-title {
+        margin: 0;
+        font-size: 28px; /* Set your desired font size */
+    }
+
+    .main-navigation ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .main-navigation ul li {
+        display: inline;
+        margin-right: 20px; /* Adjust margin as needed */
+    }
+
+    .main-navigation ul li:last-child {
+        margin-right: 0;
+    }
+
+    .main-navigation ul li a {
+        color: #000000; /* Set your desired link color */
+        text-decoration: none;
+        font-size: 16px; /* Set your desired font size */
+    }
+
+    .main-navigation ul li a:hover {
+        text-decoration: underline;
+    }
+</style>
