@@ -1,5 +1,73 @@
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--large, 8rem)"}}},"layout":{"inherit":true}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
-<!-- wp:pattern {"slug":"twentytwentytwo/footer-default"} /-->
-</div>
-<!-- /wp:group -->
+<footer class="custom-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="path/to/your/logo.png" alt="Footer Logo" width="100">
+            </div>
+            <nav class="footer-navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Your Site Name. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+<style>
+    .custom-footer {
+        background-color: #fff; /* Set your desired background color */
+        color: #333; /* Set your desired text color */
+        padding-top: 8rem; /* Adjust padding as needed */
+    }
+
+    .container {
+        max-width: 1200px; /* Adjust max-width as needed */
+        margin: 0 auto;
+        padding: 0 20px; /* Adjust padding as needed */
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        width: 100px; /* Set your desired logo width */
+    }
+
+    .footer-navigation ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-navigation ul li {
+        display: inline;
+        margin-right: 20px; /* Adjust margin as needed */
+    }
+
+    .footer-navigation ul li:last-child {
+        margin-right: 0;
+    }
+
+    .footer-navigation ul li a {
+        color: #333; /* Set your desired link color */
+        text-decoration: none;
+    }
+
+    .footer-navigation ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-top: 20px; /* Adjust margin as needed */
+    }
+</style>
