@@ -1,42 +1,43 @@
-
 <?php
-/*
-Template Name: Home
-*/
-custom_get_header(); ?>
-
-
+custom_get_header();  ?>
 
 <main id="main" class="site-main">
-    <section class="hero-section">
+
+    <section class="hero">
         <div class="container">
-            <h1>Welcome to Our Website!</h1>
-            <p>This is the homepage of our WordPress site. You can customize this content as needed.</p>
+            <h1>Your Company Name</h1>
+            <p>A captivating tagline that summarizes what you do.</p>
+            <button class="call-to-action">Learn More</button>
         </div>
     </section>
 
-    <section class="featured-posts">
+    <section class="featured-services">
         <div class="container">
-            <h2>Featured Posts</h2>
-            <?php
-            // Example loop to display latest posts
-            if (have_posts()) :
-                while (have_posts()) :
-                    the_post();
-                    ?>
-                    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                        <div class="entry-content">
-                            <?php the_excerpt(); ?>
-                        </div>
-                    </article>
-                <?php endwhile;
-            else :
-                ?>
-                <p>No posts found.</p>
-            <?php endif; ?>
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="path/to/service-icon1.svg" alt="Service 1">
+                    <h3>Service 1 Title</h3>
+                    <p>A brief description of your service.</p>
+                </div>
+                </div> 
         </div>
     </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            </div>
+    </section>
+
+    <section class="call-to-action">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <button class="call-to-action">Contact Us</button>
+        </div>
+    </section>
+
+
 </main>
 
 <?php get_footer(); ?>

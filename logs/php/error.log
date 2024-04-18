@@ -14,3 +14,62 @@
 [16-Apr-2024 09:33:28 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
 [16-Apr-2024 10:20:42 UTC] PHP Fatal error:  Cannot redeclare get_header() (previously declared in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\general-template.php:27) in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\functions.php on line 70
 [16-Apr-2024 10:20:42 UTC] PHP Fatal error:  Cannot redeclare get_header() (previously declared in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\general-template.php:27) in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\functions.php on line 70
+[18-Apr-2024 07:25:34 UTC] PHP Fatal error:  Uncaught Error: Class "System\Configuration\ConfigurationManager" not found in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php:8
+Stack trace:
+#0 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Alaah\\...')
+#2 C:\Users\Alaah\Local Sites\wp-content\app\public\index.php(17): require('C:\\Users\\Alaah\\...')
+#3 {main}
+  thrown in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php on line 8
+[18-Apr-2024 07:29:56 UTC] PHP Fatal error:  Uncaught Error: Class "System\Configuration\ConfigurationManager" not found in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php:4
+Stack trace:
+#0 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Alaah\\...')
+#2 C:\Users\Alaah\Local Sites\wp-content\app\public\index.php(17): require('C:\\Users\\Alaah\\...')
+#3 {main}
+  thrown in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php on line 4
+[18-Apr-2024 07:29:56 UTC] PHP Fatal error:  Uncaught Error: Class "System\Configuration\ConfigurationManager" not found in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php:4
+Stack trace:
+#0 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Alaah\\...')
+#2 C:\Users\Alaah\Local Sites\wp-content\app\public\index.php(17): require('C:\\Users\\Alaah\\...')
+#3 {main}
+  thrown in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php on line 4
+[18-Apr-2024 07:31:12 UTC] PHP Fatal error:  Uncaught Error: Class "System\Configuration\ConfigurationManager" not found in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php:4
+Stack trace:
+#0 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Alaah\\...')
+#2 C:\Users\Alaah\Local Sites\wp-content\app\public\index.php(17): require('C:\\Users\\Alaah\\...')
+#3 {main}
+  thrown in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php on line 4
+[18-Apr-2024 07:31:13 UTC] PHP Fatal error:  Uncaught Error: Class "System\Configuration\ConfigurationManager" not found in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php:4
+Stack trace:
+#0 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Alaah\Local Sites\wp-content\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Alaah\\...')
+#2 C:\Users\Alaah\Local Sites\wp-content\app\public\index.php(17): require('C:\\Users\\Alaah\\...')
+#3 {main}
+  thrown in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php on line 4
+[18-Apr-2024 07:46:22 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\front-page.php on line 7
+[18-Apr-2024 10:11:33 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:11:33 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:24:23 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:24:23 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:35:25 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:35:25 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:37:27 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:37:27 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:45:19 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:45:19 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:46:03 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:46:03 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:46:43 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 10:46:43 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 11:05:07 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 11:05:07 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 11:07:52 UTC] PHP Warning:  require_once(../../../../../../wp-load.php): Failed to open stream: No such file or directory in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\create-contact-page.php on line 3
+[18-Apr-2024 11:07:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../../../wp-load.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\create-contact-page.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-content\themes\Mytheme\create-contact-page.php on line 3
+[18-Apr-2024 11:09:37 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69
+[18-Apr-2024 11:09:37 UTC] PHP Warning:  Attempt to read property "content" on null in C:\Users\Alaah\Local Sites\wp-content\app\public\wp-includes\blocks\template-part.php on line 69

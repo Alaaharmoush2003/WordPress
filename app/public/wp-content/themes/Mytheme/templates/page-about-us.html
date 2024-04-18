@@ -1,0 +1,52 @@
+<!-- wp:template-part {"slug":"custom-header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main"} -->
+<main class="custom-page"><!-- wp:group {"layout":{"columns":2}} -->
+    <div class="custom-page-left">
+        <!-- wp:heading {"level":1} -->
+        <h1>Welcome to Our About Us Page!</h1>
+        <!-- /wp:heading -->
+    
+        <!-- wp:paragraph -->
+        <p>We are a dedicated team committed to providing exceptional products and services to our customers.</p>
+        <!-- /wp:paragraph -->
+    
+        <!-- wp:image {"id":456,"sizeSlug":"large"} -->
+        <figure class="wp-block-image size-large"><img src="path/to/about-us-image.jpg" alt="About Us Image" /></figure>
+        <!-- /wp:image -->
+    </div>
+    
+    <div class="custom-page-right">
+        <!-- wp:paragraph -->
+        <p>Our About Us page is where you can learn more about our company and what sets us apart.</p>
+        <!-- /wp:paragraph -->
+    
+        <!-- wp:list -->
+        <ul>
+            <li>Our mission and values</li>
+            <li>Our team members</li>
+            <li>Our commitment to excellence</li>
+        </ul>
+        <!-- /wp:list -->
+    
+        <!-- wp:button -->
+        <div class="wp-block-button">
+            <a class="wp-block-button__link" href="#">Learn More</a>
+        </div>
+        <!-- /wp:button -->
+    </div>
+    <!-- /wp:group -->
+    
+    <!-- wp:separator -->
+    <hr class="wp-block-separator" />
+    <!-- /wp:separator -->
+    
+    <!-- wp:group {"layout":{"inherit":true}} -->
+    <div class="wp-block-group">
+        <!-- wp:post-comments {"style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--medium, 6rem)"}}}} /-->
+    </div>
+    <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"custom-footer","tagName":"footer"} /-->

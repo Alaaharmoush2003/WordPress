@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Eco Hello World</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -31,11 +32,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>About Us</h1>
-        <p>Welcome to our website! We are a team of passionate individuals dedicated to bringing innovative solutions to life.</p>
-        <p>Our journey began with a shared vision to create products that make a positive impact on people's lives and the environment. With a focus on sustainability and technology, we strive to push the boundaries of what's possible.</p>
-        <p>Currently, we are working on several exciting projects, including Eco Gen Charger Pack, SmartCrop, Dark Phoenix, and a mobile application to revolutionize shopping experiences in Lebanon.</p>
-        <p>Thank you for joining us on this journey. Together, we can build a brighter future!</p>
+        <h1>Eco Hello World</h1>
+        <p>Let's make the world a greener place, starting with a simple "Hello World!"</p>
+        <p>Remember to reduce, reuse, and recycle for a sustainable future!</p>
+        <p><?php echo "Hello World!"; ?></p>
     </div>
 </body>
 </html>
